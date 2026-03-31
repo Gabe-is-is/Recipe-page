@@ -2,16 +2,29 @@ const container = document.createElement("div");
 container.className = "recipe-nutrition-container";
 
 container.innerHTML = `
-  <h3 class="recipe-nutrition-h3">Nutrition</h3>
+  <h2 class="recipe-nutrition-h2">Nutrition</h2>
   <p class="recipe-nutrition-p">
     The table below shows nutritional values per serving without the additional fillings.
   </p>
   <div class="recipe-table">
     <table>
-      <tr><td class="name">Calories</td><td class="value">277kcal</td></tr>
-      <tr><td class="name">Carbs</td><td class="value">0g</td></tr>
-      <tr><td class="name">Protein</td><td class="value">20g</td></tr>
-      <tr><td class="name">Fat</td><td class="value">22g</td></tr>
+      <caption>Nutrition facts per serving</caption>
+      <tr>
+        <th scope="row" class="name">Calories</th>
+        <td class="value">277 kcal</td>
+      </tr>
+      <tr>
+        <th scope="row" class="name">Carbs</th>
+        <td class="value">0 g</td>
+      </tr>
+      <tr>
+        <th scope="row" class="name">Protein</th>
+        <td class="value">20 g</td>
+      </tr>
+      <tr>
+        <th scope="row" class="name">Fat</th>
+        <td class="value">22 g</td>
+      </tr>
     </table>
   </div>
 `;
