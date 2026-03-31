@@ -198,16 +198,15 @@ li,
 }
 
 .recipe-table .value {
-  text-align: right;
   color: var(--brown-800);
   font-weight: bold;
 }
 
 .recipe-table th.name {
-  text-align: left;
-  font-weight: normal;
-  padding: 12px 0;
   color: var(--stone-600);
+  font-weight: normal;
+  text-align: left;
+  padding-left: 1rem;
 }
 
 .recipe-table caption {
