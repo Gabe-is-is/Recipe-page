@@ -118,6 +118,7 @@ strong {
   font-size: 1.75rem;
   font-weight: normal;
   margin-bottom: 1.5rem;
+  margin-left: -1.5rem;
 }
 
 .recipe-ingredients-li {
@@ -147,6 +148,7 @@ hr {
   font-size: 1.75rem;
   font-weight: normal;
   margin-bottom: 1.5rem;
+  margin-left: -1.5rem;
 }
 
 .recipe-instructions-ol {
